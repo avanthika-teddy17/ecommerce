@@ -1,7 +1,7 @@
 import React from "react";
 import laptop from "./laptop.png";
-import smartphone from "./smartphone.png";
-import headphones from "./headphone.png";
+import smartphone from "./smartphone.jpg";
+import headphones from "./headphone.jpg";
 const products = [
   { id: 1, name: "Laptop", price: 999, description: "High-performance laptop with 16GB RAM." },
   { id: 2, name: "Smartphone", price: 599, description: "Latest 5G smartphone with OLED display." },
