@@ -8,6 +8,42 @@ const products = [
   { id: 3, name: "headphone", price: 199, description: "Noise-canceling wireless headphones." }
 ];
 
+const product =()=>{
+
+  return (
+    <div>
+  
+      <div className="container">
+        <div className="card">
+         <img src={laptop}alt="laptop"/>
+         <h3>laptop</h3>
+         <p>$1300</p>
+         <button>Add to cart</button> 
+      </div>
+
+      <div className="card">
+         <img src={smartphone}alt="smartphone"/>
+         <h3>smartphone</h3>
+         <p>$150</p>
+         <button>Add to cart</button> 
+      </div>
+
+      <div className="card">
+         <img src={headphone}alt="headphone"/>
+         <h3>headphone</h3>
+         <p>$200</p>
+         <button>Add to cart</button> 
+      </div>
+
+      
+      </div>
+      </div>
+);
+};
+
+
+<div/>
+
 const ProductList = () => {
   return (
     <div className="product-list">
@@ -16,7 +52,7 @@ const ProductList = () => {
           <img src={laptop}alt="Laptop"/>
           <img src={smartphone}alt="Smartphone"/>
           <img src={headphone}alt="headphone"/>
-          <h3>{product.name}</h3>
+          <h1>{product.name}</h1>
           <p>{product.description}</p>
           <p><strong>${product.price}</strong></p>
           <button>Add to Cart</button>
