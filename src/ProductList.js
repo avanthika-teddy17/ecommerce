@@ -14,8 +14,8 @@ const ProductList = () => {
       {products.map((product) => (
         <div key={product.id} className="product">
           <img src={laptop}alt="Laptop"/>
-          <img src={smartphone}alt="smartphone"/>
-          <img src={headphone}alt="headphone"/>
+          <img src={smartphone}alt="Smartphone"/>
+          <img src={headphone}alt="Headphone"/>
           <h3>{product.name}</h3>
           <p>{product.description}</p>
           <p><strong>${product.price}</strong></p>
