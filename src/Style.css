@@ -1,0 +1,13 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff;
+    padding: 10px;
+    color: white;
+}
+.product{
+    border: 1px solid#ccc;
+    padding: 20px;
+    width: 200px;
+
+}
